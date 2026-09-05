@@ -4,6 +4,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 typedef struct {
     int x;
@@ -20,5 +21,6 @@ void x_incr(Position *p);
 void y_incr(Position *p);
 void x_decr(Position *p);
 void y_decr(Position *p);
+bool equals(Position p, Position q);
 
 #endif

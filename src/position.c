@@ -56,3 +56,12 @@ void y_decr(Position *p){
     p->y += 1;
 }
 
+bool equals(Position p, Position q){
+    if(p.x == q.x){
+        if(p.y == q.y){
+            return true;
+        }
+    }
+    return false;
+}
+
